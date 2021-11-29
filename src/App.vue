@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <WeatherTraffic />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WeatherTraffic from './components/WeatherTraffic.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    WeatherTraffic
+  },
 }
 </script>
 
@@ -19,7 +18,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
   margin-top: 60px;
 }
